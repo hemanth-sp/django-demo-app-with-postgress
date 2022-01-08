@@ -1,0 +1,1 @@
+create user django;create database demodb;alter role django with password 'djangopassword';grant all privileges on database demodb to django;alter database demodb owner to django;
